@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDM Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+    <link rel="stylesheet" href="css/style.css"
+
+  </head>
+
+  <body>
+    <header>
+      <div class= "logo">
+        <img src="img/DugeDev.svg" alt="<devDenver>">
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- #########__Introduction__########### -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Accelerated <strong>Audio Steganography Decoder</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Embedded Systems with FPGAs</p>
+      <img src="img/steg.jpeg" alt="a picture of Denver in Shades 😎" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+      <h3>Abstract</h3><a class="social-list__link" href="https://github.com/Shingirai98/Audio-Steganogrophy-Decoder.git">
+        <i class="fab fa-github"></i></a>
+      <p>Steganography is defined as the technique of hiding
+        classified data within a non-secret file with the intention that
+        the data remains undetected until its extraction. Steganography
+        should not be confused with the art of cryptography, which
+        rather involves the implementation of ”crypto” keys to lock
+        out unauthorized users from accessing information that they
+        are not entitled to access.</p>
+        <p>At its core, the idea of steganography is covert
+        communication in comparison to cryptography’s data
+        protection. Despite this, steganography has a plethora of other
+        potential benefits and applications, including digital rights
+        management.<br>
+        The focus for this project is the development and
+        prototyping of a steganography encoder and decoder. Since
+        the objective is to hide data in a unique way, there are many
+        formats of steganography, such as image, audio or video,
+        as well as many methods of executing it, such as Least
+        Significant Bit Encoding or Echo Hiding. In steganography
+        there are two components that make up the output file. These
+        two components are the cover object and the stego object,
+        which are defined as the overt data being sent and the secret
+        data embedded within it, respectively.<br>
+        While the current methods of steganography are already
+        well established and proficient, the objective of this paper is
+        to investigate the concept of encoding the covert data into the
+        high-frequency signals of the cover object such that they are
+        imperceptible to the human ear.</p>
+    </div>
+    <!--######Footer#####-->
+    <footer class="footer">
+      <a href="mailto:denvrmaburutse@gmail.com" class="footer__link">denvrmaburutse@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com/in/shingirai-denver-maburutse-31aa30157">
+            <i class="fab fa-linkedin-in"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/shingidm">
+            <i class="fab fa-twitter"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.facebook.com/shingiraid.maburutse">
+            <i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-discord"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Shingirai98">
+            <i class="fab fa-github-alt"></i></a></li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

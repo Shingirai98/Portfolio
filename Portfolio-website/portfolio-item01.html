@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDM Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+    <link rel="stylesheet" href="css/style.css"
+
+  </head>
+
+  <body>
+    <header>
+      <div class= "logo">
+        <img src="img/DugeDev.svg" alt="<devDenver>">
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- #########__Introduction__########### -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Control Systems and instrumentation
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Copter Project</p>
+      <img src="img/heli.jpg" alt="Helicopter" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+      
+      <a class="social-list__link" href="https://github.com/Shingirai98/copter.git">
+        <i class="fab fa-github"></i></a>
+      <h4>Abstact</h4>
+      <p>The main difference between aeroplanes and helicopters are the spinning blades that causes lift of the aircraft. They have main and rear rotors which allow them to rise without the need of  a runway.They start rotating and require a certain angle of attack to start lifting up. </p>
+ 
+       <p> The system requires a voltage as input(offset) which will determine the angle of attack. The angle of attack will determine whether the helicopter hovers,lifts or lowers down.<br> The output of the system is the helicopter’s height and velocity.  
+        Although as mentioned previously, only skilled people get to pilot a helicopter there is still the need for the helicopter to follow the setpoint that the pilot has desired it to be and without a contoroller this is impossible. <br>
+        It will require constant concentration and readability of future events to maintain stability. <br>The disturbance that are come from the outside like wind, rain and weight need also to be rejected and controlled.  
+        The designing of these controllers make them expensive because of how complicated the system is, it also requires expertise that have a lot of experience to minimise errors in design as it is a disaster-prone infrastructure. </p>
+    </div>
+    <!--######Footer#####-->
+    <footer class="footer">
+      <a href="mailto:denvrmaburutse@gmail.com" class="footer__link">denvrmaburutse@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com/in/shingirai-denver-maburutse-31aa30157">
+            <i class="fab fa-linkedin-in"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/shingidm">
+            <i class="fab fa-twitter"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.facebook.com/shingiraid.maburutse">
+            <i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-discord"></i></a></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Shingirai98">
+            <i class="fab fa-github-alt"></i></a></li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
